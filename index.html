@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="script.js"></script>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <h1>Watch Dials</h1>
+    <!-- <a href="/me.html">My other page</a> -->
+    <!-- <div id="watch-container">
+      <div class="units-holder">
+
+      </div>
+      <div class="hours-holder">
+        <span class="hour12">12</span>
+        <span class="hour1">1</span>
+        <span class="hour2">2</span>
+        <span class="hour3">3</span>
+        <span class="hour4">4</span>
+        <span class="hour5">5</span>
+        <span class="hour6">6</span>
+        <span class="hour7">7</span>
+        <span class="hour8">8</span>
+        <span class="hour9">9</span>
+        <span class="hour10">10</span>
+        <span class="hour11">11</span>
+      </div>
+    </div> -->
+    <div id="clock-container">
+      <!-- <div id="mask"></div> -->
+      <div id="x-axis"></div>
+      <div id="y-axis"></div>
+      <div id="input-val">
+        <input type="number" id="hour-val" readonly value="12" step="1" min="1" max="12" /> <span class="time-separator">:</span>
+        <input type="number" id="minutes-val" readonly value="00" step="1" min="0" max="59" />
+        <span class="time-separator">:</span>
+        <input type="number" id="seconds-val" readonly value="00" step="1" min="0" max="59" />
+      </div>
+      <div id="hour-clock">
+      </div>
+      <div id="minutes-clock">
+      </div>
+      <div id="seconds-clock">
+      </div>
+      <!-- <div id="minutes-clock" >
+      </div> -->
+    </div>
+    <!-- <button type="button" onclick="rotateClock('down')">Rotate by 1Hour</button>
+    <button type="button" onclick="rotateClock('down',6,'minutes')">Rotate by 1Minute</button> -->
+  </body>
+</html>
