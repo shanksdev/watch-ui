@@ -200,7 +200,7 @@ let initializeClock = () => {
     let span = document.createElement('span');
     let transformStyle = 'translateX(-50%) translateY(-50%)';
     span.innerHTML = `<span class="val">${minutes[i]}</span>`;
-    span.classList.add('minutes');
+    span.classList.add('seconds');
     span.style.transform = transformStyle + ` rotateZ(${secondsAngle}deg)`;
     secondsAngle += defaultMinuteSecondsFactor;
     secondsClock.appendChild(span);
